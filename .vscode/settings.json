@@ -1,0 +1,19 @@
+{
+    "terminal.integrated.profiles.windows": {
+        "Git Bash": {
+            "path": "C:\\PROGRA~1\\Git\\bin\\bash.exe",
+            "args": [
+                "--init-file",
+                "./venv/Scripts/activate"
+            ]
+        },
+        "Command Prompt": {
+            "path": "C:\\WINDOWS\\system32\\cmd.exe",
+            "args": [
+                "--init-file",
+                "./venv/Scripts/activate.bat"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Git Bash"
+}
