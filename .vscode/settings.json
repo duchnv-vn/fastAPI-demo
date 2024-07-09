@@ -15,5 +15,10 @@
             ]
         }
     },
-    "terminal.integrated.defaultProfile.windows": "Git Bash"
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "files.exclude": {
+        "**/.git": true,
+        "**/__pycache__": true,
+        "venv": true
+    }
 }

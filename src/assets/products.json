@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Wireless Mouse",
+        "price": 29.99,
+        "type": "computer"
+    },
+    {
+        "id": 2,
+        "name": "Mechanical Keyboard",
+        "price": 79.99,
+        "type": "computer"
+    },
+    {
+        "id": 3,
+        "name": "HD Monitor",
+        "price": 199.99,
+        "type": "computer"
+    },
+    {
+        "id": 4,
+        "name": "USB-C Hub",
+        "price": 49.99,
+        "type": "computer"
+    },
+    {
+        "id": 5,
+        "name": "External Hard Drive",
+        "price": 89.99,
+        "type": "computer"
+    },
+    {
+        "id": 6,
+        "name": "Laptop Stand",
+        "price": 39.99,
+        "type": "laptop"
+    },
+    {
+        "id": 7,
+        "name": "Noise Cancelling Headphones",
+        "price": 129.99,
+        "type": "computer"
+    },
+    {
+        "id": 8,
+        "name": "Webcam",
+        "price": 59.99,
+        "type": "computer"
+    },
+    {
+        "id": 9,
+        "name": "Bluetooth Speaker",
+        "price": 49.99,
+        "type": "smartphone"
+    },
+    {
+        "id": 10,
+        "name": "Smartphone Stand",
+        "price": 19.99,
+        "type": "smartphone"
+    },
+    {
+        "name": "Product 11",
+        "price": 50.0,
+        "type": "smartphone",
+        "id": 11
+    },
+    {
+        "name": "Product 12",
+        "price": 999.99,
+        "type": "computer",
+        "id": 12
+    }
+]
