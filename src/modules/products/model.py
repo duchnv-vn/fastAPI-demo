@@ -1,5 +1,5 @@
 from enum import Enum
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from typing import Union
 
 
@@ -18,12 +18,12 @@ class Product(BaseModel):
 
 
 class CreateProductBody(BaseModel):
-    name: str
+    name: str = Field(min_length=1, max_length=10, pattern=r"^[a-zA-Z0-9]+$")
     price: float
     type: ProductType
 
 
 class PartialPartiaProductBductBody(BaseModel):
-    name: Union[str, None] = None
-    price: Union[float, None] = None
-    type: Union[ProductType, None] = None
+    name: str | None = Field(min_length=1, max_length=10, pattern=r"^[a-zA-Z0-9]+$")
+    price: float | None = None
+    type: ProductType | None = None
